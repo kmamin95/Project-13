@@ -30,10 +30,9 @@ Load balancing ensures that the application will be highly accessible, in additi
 Load Balancers protect against Denial of Service attacks by redirecting traffic to all servers equally so that not one single server is
 overloaded with traffic which could possibly result in a crash, halt of service and loss of revenue. Having a jump box is advantageous because a jump box server is regularly monitored and is also hardened. Administrators first connect to the jump box and then proceed to perform tasks which might involve accessing unsecure environments.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
-
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
+Filebeat acts as an agent on the servers, it monitors logs files, collects logs events and then redirects them to Elasticsearch or logstash.
+Metricbeat is used to keep record of the metrics and statistics of the operating system and other services which are running on the server.
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
