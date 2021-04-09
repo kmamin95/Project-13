@@ -4,7 +4,7 @@ Azure Cloud
 
 The files in this repository were used to configure the network depicted below.
 
-![ELK-Diagram](Diagrams/Project_13_Diagram.png)
+![ELK-Diagram](https://github.com/kmamin95/Project-13/blob/main/Diagrams/Week%2013%20Project%20Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
