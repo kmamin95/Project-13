@@ -47,11 +47,11 @@ _Note: Use the [Markdown Table Generator](https://www.tablesgenerator.com/markdo
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+Only the JumpBox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP address:
+- 142.116.63.100
 
-Machines within the network can only be accessed by _____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+Machines within the network can only be accessed by the RedTeamVM JumpBox machine.
+The JumpBox machine was allowed access to the ELK VM through SSH Port 22, and its IP address is 10.0.0.4 (Private IP of Jumpbox VM) and my personal workstation has access to the ELK-VM through port 5601 with the IP address 142.116.63.100 (Public IP Address).
 
 A summary of the access policies in place can be found in the table below.
 
