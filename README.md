@@ -55,17 +55,17 @@ The JumpBox machine was allowed access to the ELK VM through SSH Port 22, and it
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name     | Publicly Accessible | Allowed IP Addresses                  |
+|----------|---------------------|---------------------------------------|
+| Jump Box |         Yes         |             142.116.63.100            |
+|   Web 1  |          No         |                10.0.0.4               |
+|   Web 2  |          No         |                10.0.0.4               |
+|    ELK   |         Yes         | 10.0.0.4 & 142.116.63.100 (Port 5601) |
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
-
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because
+it gives administrators spare time which can be spent on more important tasks such as improving business values.
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - ...
